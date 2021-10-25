@@ -1,0 +1,33 @@
+.users {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.users .user-box {
+    width: 31%;
+    margin: 1%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 6px 2px #333;
+    flex-grow: 1;
+   
+}
+.users .user-box img {
+
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  
+}
+.users .user-box img:hover {
+    transform: scale(1.1);
+}
